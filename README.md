@@ -9,8 +9,11 @@ Therefore, we have to work suppotting install proccess at "service overtime" wit
 Thus we have developed easier install process.  
 This Container is installed many AI relating libraries, by using Docker is  easy introduce.  
 Many students aren't to need worriing about install process, what you need is all in this container.  
-We named "LEARN", want that many learning student in experimence class used.  
+We named "LEARN", want that many learning students in experimence class used.  
 
+## Who needs this ?
+- Beginner AI enginner
+- Who want an easier installion
 
 ## Usage 
 ```
@@ -36,9 +39,6 @@ By the way, you are AI engineer too !
 ```
 docker build . -t superml
 ```
-
-
-## Who needs this ?
 
 ## Branch Rule
 Git-Flow.
