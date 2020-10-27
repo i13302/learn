@@ -8,7 +8,7 @@ AI relating libraries are large and many , so installing their're not finished  
 Therefore, we have to work suppotting install proccess at "service overtime" without pay.   
 Thus we have developed easier install process.  
 This Container is installed many AI relating libraries, by using Docker is  easy introduce.  
-Many students aren't to need worriing about install process, what you need is all in this container.  
+Many students aren't to need worrying about install process, what you need is all in this container.  
 We named "LEARN", want that many learning students in experimence class used.  
 
 ## Who needs this ?
