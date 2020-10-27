@@ -14,7 +14,7 @@ jobs:
             docker build . -t superml
         - name: push Image to Pacakge
           run:
-            echo ${{ GHCR }} | docker login ghcr.io -u ${{ github.actor }} --password-stdin
+            echo ${{ secrets.GHCR }} | docker login ghcr.io -u ${{ github.actor }} --password-stdin
             docker tag superml ghcr.io/${{github.actor}}/${{ github.repository }}/superml:latest
             docker push ghcr.io/${{ github.actor }}/${{ github.repository }}/superml:latest
             
