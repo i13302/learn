@@ -7,8 +7,10 @@ USER jovyan
 RUN conda install python-graphviz && \
     conda install scikit-learn
 RUN conda install pandas
+RUN conda install numpy
 RUN conda install matplotlib
 RUN conda install seaborn
-RUN pip install --upgrade tensorflow
+RUN pip install tensorflow
+RUN pip install mecab-python3
 
 CMD ["start-notebook.sh","--NotebookApp.token=''","--NotebookApp.password=''"]
