@@ -2,6 +2,15 @@
 ![build](https://img.shields.io/github/workflow/status/i13302/learn/push_image/main)
 ![last-commit](https://img.shields.io/github/last-commit/i13302/learn)
 
+## Motivation
+This project is developed by whom are working at teaching assistant that is teach AI (Artificial Intelligence) in experimence class.   
+AI relating libraries are large and many , so installing their're not finished  in class time, and  futher, their install process are complex.  
+Therefore, we have to work suppotting install proccess at "service overtime" without pay.   
+Thus we have developed easier install process.  
+This Container is installed many AI relating libraries, by using Docker is  easy introduce.  
+Many students aren't to need worriing about install process, what you need is all in this container.  
+We named "LEARN", want that many learning student in experimence class used.  
+
 
 ## Usage 
 ```
@@ -38,7 +47,6 @@ master
   |- develop
      |- future/* 
 ```
-
 
 ## License
 Apache License.  
