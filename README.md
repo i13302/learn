@@ -4,11 +4,21 @@
 ## Usage 
 ```
 docker pull ghcr.io/i13302/learn/superml:latest
-docker run -it --rm --publish 8888:8888 --volume $(pwd)/work:/home/jovyan/work/ ghcr.io/i13302/learn/superml:latest
 ```
 
-Access to [http://127.0.0.1:8888](http://127.0.0.1:8888) in your browser.
-By the way, you are AI engineer too !
+### Terminal on Linux,Mac
+```
+docker run -it --rm --publish 8888:8888 --volume $(pwd)/work:/home/jovyan/work/ ghcr.io/i13302/learn/superml:latest
+``` 
+
+### Powershell on Windows
+```
+docker run -it --rm --publish 8888:8888 --volume ${PWD}/work:/home/jovyan/work/ ghcr.io/i13302/learn/superml:latest
+```
+
+In `work` directory of current directory in host machine with In `work` directory of `/home/jovyan/work` in container (top directory on jupyter) are synceing files.  
+Access to [http://127.0.0.1:8888](http://127.0.0.1:8888) in your browser.  
+By the way, you are AI engineer too !  
 
 
 ### Local Build
