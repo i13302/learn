@@ -1,0 +1,13 @@
+name: build_and_push
+
+on:
+	push
+
+jobs:
+	build:
+		runs-on: ubuntu-20.04
+		steps:
+			- uses: actions/checkout@v1
+		run:
+			docker build -t .
+
