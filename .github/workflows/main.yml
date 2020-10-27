@@ -1,7 +1,6 @@
 name: build_and_push
 
-on:
-  push:
+on: push
 
 jobs:
   build:
