@@ -2,8 +2,9 @@ name: push_image
 
 on:
   push:
-    branchs:
-      main
+    branches:
+      - main
+
 jobs:
   build:
     runs-on: ubuntu-20.04
