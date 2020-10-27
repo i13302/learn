@@ -27,6 +27,9 @@ Apache License.
 This is [LICENSE](LICENSE) file.
 
 ## Member
+- [@i13302](https://github.com/i13302)
+- [@unomitsu](https://github.com/unomitsu)
+- [@gacky35](https://github.com/gacky35)
 
 ## Install Library List
 
