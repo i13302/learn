@@ -6,5 +6,9 @@ RUN apt-get update -y && apt-get install -y --no-install-recommends build-essent
 USER jovyan
 RUN conda install python-graphviz && \
     conda install scikit-learn
+RUN conda install pandas
+RUN conda install matplotlib
+RUN conda install seaborn
+RUN pip install --upgrade tensorflow
 
 CMD ["start-notebook.sh","--NotebookApp.token=''","--NotebookApp.password=''"]
