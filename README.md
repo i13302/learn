@@ -32,6 +32,12 @@ docker build . -t superml
 ## Who needs this ?
 
 ## Branch Rule
+Git-Flow.
+```
+master
+  |- develop
+     |- future/* 
+```
 
 
 ## License
