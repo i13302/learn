@@ -6,4 +6,4 @@ RUN apt-get update -y && apt-get install -y --no-install-recommends build-essent
 USER jovyan
 RUN conda install python-graphviz
 
-USER jovyan
+CMD ["start-notebook.sh","--NotebookApp.token=''","--NotebookApp.password=''"]
