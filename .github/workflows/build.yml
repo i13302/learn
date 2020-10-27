@@ -1,0 +1,16 @@
+name: build
+
+on:
+  push:
+    branches-ignore:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-20.04
+    steps:
+        - uses: actions/checkout@v1
+        - name: build Dockerfile
+          run:
+            docker build . -t superml
+
