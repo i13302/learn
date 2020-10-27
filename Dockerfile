@@ -4,6 +4,6 @@ USER root
 RUN apt-get update -y && apt-get install -y --no-install-recommends build-essential graphviz
 
 USER jovyan
-RUN pip install graphviz
+RUN conda install python-graphviz
 
 USER jovyan
