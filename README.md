@@ -1,4 +1,6 @@
 # Learing Experiment As Running contaiNer
+![build](https://img.shields.io/github/workflow/status/i13302/learn/push_image/main)
+![last-commit](https://img.shields.io/github/last-commit/i13302/learn)
 
 
 ## Usage 
@@ -43,4 +45,4 @@ This is [LICENSE](LICENSE) file.
 
 ## Install Library List
 
-Dockerfile build Actions Status: <img src='https://img.shields.io/github/workflow/status/i13302/learn/push_image/main'>
+
