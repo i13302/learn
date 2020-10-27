@@ -12,5 +12,5 @@ jobs:
         - uses: actions/checkout@v1
         - name: build Dockerfile
           run:
-            bash build.sh
+            docker build . -t superml
 
