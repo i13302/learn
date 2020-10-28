@@ -18,17 +18,17 @@ We named "LEARN", want that many learning students in experimence class used.
 
 ## Usage 
 ```
-docker pull ghcr.io/i13302/learn/superml:latest
+docker pull ghcr.io/i13302/i13302/learn/superml:latest
 ```
 
 ### Terminal on Linux,Mac
 ```
-docker run -it --rm --publish 8888:8888 --volume $(pwd)/work:/home/jovyan/work/ ghcr.io/i13302/learn/superml:latest
+docker run -it --rm --publish 8888:8888 --volume $(pwd)/work:/home/jovyan/work/ ghcr.io/i13302/i13302/learn/superml:latest
 ``` 
 
 ### Powershell on Windows
 ```
-docker run -it --rm --publish 8888:8888 --volume ${PWD}/work:/home/jovyan/work/ ghcr.io/i13302/learn/superml:latest
+docker run -it --rm --publish 8888:8888 --volume ${PWD}/work:/home/jovyan/work/ ghcr.io/i13302/i13302/learn/superml:latest
 ```
 
 In `work` directory of current directory in host machine with In `work` directory of `/home/jovyan/work` in container (top directory on jupyter) are synceing files.  
