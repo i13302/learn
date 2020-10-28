@@ -57,6 +57,11 @@ This is [LICENSE](LICENSE) file.
 - [@unomitsu](https://github.com/unomitsu)
 - [@gacky35](https://github.com/gacky35)
 
-## Install Library List
-
-
+## Install Library
+- graphviz : Draw a graph structure written in DOT language
+- pandas : A library that provides functions to support data analysis
+- numpy : Extension module for efficient numerical calculation
+- matplotlib : Graph drawing library
+- seaborn : Graph drawing library
+- Tensorflow : Software library for use in machine learning
+- mecab: Morphological analysis engine
