@@ -12,6 +12,6 @@ jobs:
     steps:
         - uses: actions/checkout@v1
         - name: build Dockerfile
-          run:
+          run: |
             docker build . -t superml
-
+            bash .github/workflows/import_test.sh
