@@ -61,23 +61,23 @@ This is [LICENSE](LICENSE) file.
 ## Install Library
 
 ### Calculation
-- NumPy - https://numpy.org/
+- NumPy - https://numpy.org/  
   Extension module for efficient numerical calculation
-- pandas - https://pandas.pydata.org/
+- pandas - https://pandas.pydata.org/  
   A library that provides functions to support data analysis
 
 ### Visualization
-- matplotlib - https://matplotlib.org/
+- matplotlib - https://matplotlib.org/  
   Graph drawing library
-- seaborn - https://seaborn.pydata.org/
+- seaborn - https://seaborn.pydata.org/  
   Graph drawing library
-- Graphviz - https://graphviz.org/
+- Graphviz - https://graphviz.org/  
   Draw a graph structure written in DOT language
 
 ### Model
-- scikit-learn - https://scikit-learn.org/stable/
+- scikit-learn - https://scikit-learn.org/stable/  
   Machine learning library
-- TensorFlow - https://www.tensorflow.org/
+- TensorFlow - https://www.tensorflow.org/  
   Software library for use in machine learning
-- MeCab - https://taku910.github.io/mecab/
+- MeCab - https://taku910.github.io/mecab/  
   Morphological analysis engine
