@@ -9,7 +9,7 @@ Therefore, we have to work suppotting install proccess at "service overtime" wit
 Thus we have developed easier install process.  
 This Container is installed many AI relating libraries, by using Docker is  easy introduce.  
 Many students aren't to need worrying about install process, what you need is all in this container.  
-We contained simple sample program. So, you can immediately validation.
+We contained simple sample program. So, you can immediately validation.  
 We named "LEARN", want that many learning students in experimence class used.  
 
 ## Who needs this ?
@@ -61,15 +61,23 @@ This is [LICENSE](LICENSE) file.
 ## Install Library
 
 ### Calculation
-- numpy
-- pandas
+- NumPy - https://numpy.org/  
+  Extension module for efficient numerical calculation
+- pandas - https://pandas.pydata.org/  
+  A library that provides functions to support data analysis
 
 ### Visualization
-- matplotlib
-- seaborn
-- graphviz
+- matplotlib - https://matplotlib.org/  
+  Graph drawing library
+- seaborn - https://seaborn.pydata.org/  
+  Graph drawing library
+- Graphviz - https://graphviz.org/  
+  Draw a graph structure written in DOT language
 
 ### Model
-- scikit-learn
-- tensorflow
-- mecab
+- scikit-learn - https://scikit-learn.org/stable/  
+  Machine learning library
+- TensorFlow - https://www.tensorflow.org/  
+  Software library for use in machine learning
+- MeCab - https://taku910.github.io/mecab/  
+  Morphological analysis engine
