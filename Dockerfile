@@ -16,4 +16,7 @@ RUN conda install --yes --freeze-installed nomkl python-graphviz scikit-learn pa
 COPY requirements.txt .
 RUN pip --no-cache-dir install -r requirements.txt && rm requirements.txt
 
+WORKDIR /home/jovyan
+COPY sample .
+
 CMD ["start-notebook.sh","--NotebookApp.token=''","--NotebookApp.password=''"]
